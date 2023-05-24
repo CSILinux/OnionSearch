@@ -1,16 +1,11 @@
 # OnionSearch
 ![PyPI](https://img.shields.io/pypi/v/onionsearch) ![PyPI - Week](https://img.shields.io/pypi/dw/onionsearch) ![PyPI - Downloads](https://static.pepy.tech/badge/onionsearch) ![PyPI - License](https://img.shields.io/pypi/l/onionsearch)
-#### For BTC Donations : 1FHDM49QfZX6pJmhjLE5tB2K6CaTLMZpXZ
-## Educational purposes only
+
+## Modified from https://github.com/megadose/OnionSearch
 
 OnionSearch is a Python3 script that scrapes urls on different ".onion" search engines.
 
 ![](https://files.catbox.moe/vguy1e.png)
-
-### Demo
-
-![](https://github.com/megadose/gif-demo/raw/master/onionsearch.gif)
-
 
 ## 💡 Prerequisite
 [Python 3](https://www.python.org/download/releases/3.0/)
@@ -41,7 +36,7 @@ OnionSearch is a Python3 script that scrapes urls on different ".onion" search e
 ### With Github
 
 ```bash
-git clone https://github.com/megadose/OnionSearch.git
+git clone [https://github.com/CSILinux/OnionSearch.git]
 cd OnionSearch/
 python3 setup.py install
 ```
