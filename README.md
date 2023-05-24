@@ -28,7 +28,7 @@ OnionSearch is a Python3 script that scrapes urls on different ".onion" search e
 ### With Github
 
 ```bash
-git clone [https://github.com/CSILinux/OnionSearch.git]
+git clone https://github.com/CSILinux/OnionSearch.git
 cd OnionSearch/
 python3 setup.py install
 ```
@@ -88,9 +88,9 @@ To request all the engines for the word "computer":
 onionsearch "computer"
 ```
 
-To request all the engines excepted "Ahmia" and "Candle" for the word "computer":
+To request all the engines excepted "Ahmia" and "tor66" for the word "computer":
 ```
-onionsearch "computer" --exclude ahmia candle
+onionsearch "computer" --exclude ahmia tor66
 ```
 
 To request only "Tor66", "DeepLink" and "Phobos" for the word "computer":
